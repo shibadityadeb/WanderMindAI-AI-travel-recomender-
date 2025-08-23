@@ -54,37 +54,37 @@ const data = [
   {
     category: "Paris, France",
     title: "Explore the City of Lights – Eiffel Tower, Louvre & more",
-    src: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+    src: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=2400&q=100",
     content: <DummyContent />,
   },
   {
     category: "New York, USA",
     title: "Experience NYC – Times Square, Central Park, Broadway",
-    src: "https://plus.unsplash.com/premium_photo-1661954654458-c673671d4a08?auto=format&fit=crop&w=1200&q=80",
+    src: "https://plus.unsplash.com/premium_photo-1661954654458-c673671d4a08?auto=format&fit=crop&w=2400&q=100",
     content: <DummyContent />,
   },
   {
     category: "Tokyo, Japan",
     title: "Discover Tokyo – Shibuya, Cherry Blossoms, Temples",
-    src: "https://images.unsplash.com/photo-1598957232485-fab51e0ed7e8?auto=format&fit=crop&w=1200&q=80",
+    src: "https://images.unsplash.com/photo-1598957232485-fab51e0ed7e8?auto=format&fit=crop&w=2400&q=100",
     content: <DummyContent />,
   },
   {
     category: "Rome, Italy",
     title: "Walk through History – Colosseum, Vatican, Roman Forum",
-    src: "https://images.unsplash.com/photo-1610655769765-be8a0dd9627a?auto=format&fit=crop&w=1200&q=80",
+    src: "https://images.unsplash.com/photo-1610655769765-be8a0dd9627a?auto=format&fit=crop&w=2400&q=100",
     content: <DummyContent />,
   },
   {
     category: "Dubai, UAE",
     title: "Luxury and Innovation – Burj Khalifa, Desert Safari",
-    src: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80",
+    src: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=2400&q=100",
     content: <DummyContent />,
   },
   {
     category: "India",
     title: "Colors and Culture – Taj Mahal, Jaipur, Varanasi",
-    src: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    src: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=2400&q=100",
     content: <DummyContent />,
   }
 ];

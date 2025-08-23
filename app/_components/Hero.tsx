@@ -1,7 +1,11 @@
+"use client"
+
 import HeroVideoDialog from '@/components/magicui/hero-video-dialog'
 import { Button } from '@/components/ui/button'
 import { Textarea } from '@/components/ui/textarea'
+import { useUser } from '@clerk/nextjs'
 import { ArrowDown, Globe2, Landmark, Plane, Send } from 'lucide-react'
+import { useRouter } from 'next/navigation'
 import React from 'react'
 
 const suggestions=[
@@ -26,6 +30,15 @@ const suggestions=[
 
 
 function Hero() {
+const {user}=useUser();
+const router=useRouter()
+const onSend=()=>{
+  if (!user){
+    router.push('/sign-in')
+    return
+  }
+  //navigate to create iternary webpage
+}
   return (
     <div className='mt-25 flex justify-center'>
     {/*Content*/}
@@ -41,7 +54,7 @@ function Hero() {
       className='w-full h-28 bg-transparent border-none resize-none'
     />
     <div className="flex justify-end mt-2">
-  <Button size={'icon'} className="cursor-pointer">
+  <Button size={'icon'} className="cursor-pointer" onClick={()=>onSend()}>
     <Send size={20} />
   </Button>
 </div>

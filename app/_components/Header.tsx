@@ -43,7 +43,7 @@ function Header() {
          </Button>
        </SignInButton>
      ) : (
-       <Link href={'/create-trip'}>
+       <Link href={'/create-new-trip'}>
          <Button className='cursor-pointer'>Create New Trip</Button>
        </Link>
      )}
